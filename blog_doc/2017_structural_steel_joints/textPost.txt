@@ -1,0 +1,5 @@
+The analysis of structural steel joints is a complex problem. 
+The calculation methods proposed in the standards are generally based on simplifications that can make them unsuitable for more complicated geometries (stresses in different planes, arrangement of auxiliary elements such as bushings,
+stiffeners or plates,. . . ). Nor do the tables and abacuses capture the broad typology that may arise.
+
+This paper describes the features of the finite element calculation of two types of beam to column connections and two column base plates. Three-dimensional models have been used which take into account the non-linear behavior of the material and of the contact surface between the bolted parts. In order to calibrate the calculation, it has been reproduced a finite element model used in the work Finite element analysis of structural steelwork beam to column bolted connections, made by Jim Butterworth at the University of Teesside, UK.

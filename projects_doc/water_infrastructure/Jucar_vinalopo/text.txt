@@ -1,0 +1,117 @@
+intake of water at the Azud de La Marquesa on the final stretch of the Júcar
+Júcar-Vinalopó pipeline
+Hydraulic works for water transfer, with 25 km  of DN 1800 steel pipe, a 16 MW pumping  station and regulation reservoir of 100.000 m3.
+transfer up to 80 cubic hectometres of water to the Vinalopo to mitigate the problems caused by the very serious overexploitation of aquifers in the area
+
+
+One of the measures designed in the Basin Plan of 1998 (CHJ, 1998) in order to reduce aquifer
+overexploitation in Vinalopo-Alacanti, and urban water deficit in Marina Baja, was the Jucar Vinalopo
+Project (JVP), which is a transfer of water from the Jucar river Basin to the Vinalopo-Alacanti-Marina Baja
+area. The project included an intake in Cortes reservoir, located the middle part of the Jucar river, and after a
+lift of 500 m and 80 km of canals and pipes, it should deliver water up to 80 hm 3 /year to the Vinalopo basin,
+as shown in path (a) of Figure 1. Construction started in 2002, but environmental organizations and
+traditional irrigation farmers of the lower Jucar Basin still showed an opposition to the project. The concern
+of NGO’s was the environmental state of Jucar River and Albufera wetland after project implementation, and
+the concern of the traditional farmers was a decrease of reliability in their supply, given that their intakes are
+located downstream of the transfer intake. Traditional farmers were demanding a JVP intake downstream of
+their intakes, as shown in path (b) of Figure 1.
+
+Despite the pressurized water pipe flow has got a higher flexibility in its course than the free surface flow, the terrain enforces the construction of auxiliary elements which allow the water transferring. In E stretch of the Júcar river down course connection with V stretch (“Nueva conducción Júcar-Vinalopó”) the pipe must overcome different transport infrastructures and four ravines, choosing pipe jacking and aqueducts respectively. This article is focused on the solution given to these aqueducts, especially to the Roig ́s gully aqueduct, near the village of Moixent, for which conditions of various kinds imposed a unique design.
+
+
+El transporte en toda la conducción debe hacerse a
+presión para salvar las cotas del trazado, con tubería
+de acero de diámetro 1.829 mm. La conducción, ade-
+más, se dimensiona para un caudal de diseño de
+4,5 m3/s, si bien se comprueba su correcto funciona-
+miento para un caudal de 5,6 m3/s
+
+Su objeto es la transferencia de recursos hídricos
+sobrantes del Júcar hasta la cuenca del Vinalopó en
+un volumen máximo establecido en el actual Plan
+Hidrológico del Júcar de hasta 80 Hm3/año, una vez
+satisfechas las demandas en la cuenca cedente y de
+forma especial, las medioambientales.
+
+Tiene una
+longitud total de conducción superior a los 95 km,
+incluyendo dos túneles de 6 km de longitud total,
+cuatro bombeos y tres balsas intermedias.
+
+Barranco del Roig luz de 60 metros.
+tubos autopor-
+tantes, empleando la propia tubería como viga que
+salvara la luz de los barrancos, apurando la capaci-
+dad resistente remanente en el material tras resistir
+las presiones interiores, cumpliendo los límites de
+deformación necesarios para el transporte.
+
+estructura atirantada con
+cuatro pilonos curvos dispuestos de forma asimé-
+trica, dos en cada margen, de los que se suspende la
+tubería 
+ La curvatura de los pilonos no es
+arbitraria sino que se corresponde con la propia de
+un arco de medio punto de 60 m (la luz del barranco)
+y la longitud total de los mismos corresponde con su
+perímetro.
+ espesor de la tubería 17,5 mm y la calidad del acero  X70;
+para el
+sistema de tirantes se decidió adoptar un sistema de
+barras roscadas, con una métrica de 76 mm.
+máxima presión en este tramo es de unos
+150 metros de columna de agua, lo cual equivale
+aproximadamente a 1,5 N/mm2 de presión interior, a
+la que hay que añadir una sobrepresión/depresión
+de 1 N/mm2 por efecto del transitorio. 
+Se ha considerado del lado de la seguridad que, frente
+al viento transversal, los elementos (tubería, mástiles
+y cables) funcionan independientemente, desacopla-
+dos, siendo la situación pésima para esta acción.
+
+
+Modelización de los cables como una cadena de elementos barra con formulación corrotacional articuladas en sus extremos. Las acciones del peso propio y del viento se introducen en los nodos intermedios de cada cable. Por este procedimiento, los efectos de la variación de la rigidez del cable con la variación de su directriz y los aumentos de tensión debidos a su peso o el viento que actúa sobre el mismo, quedan recogidos en el modelo.
+Modelización de los mástiles y la tubería como elementos viga con formulación corrotacional, lo que, como en el caso anterior permite al elemento reproducir estados con movimientos no infinitesimales de los nodos.
+Eliminación en el modelo del apoyo provisional de la tubería una vez que el tesado de los cables hace que su reacción sea prácticamente nula
+
+
+Pandeo local pared tubería
+El objeto de este estudio es comprobar la admisibilidad de la tuberı́a a utilizar en el acueducto
+Roig, frente a la inestabilidad por pandeo local de su pared, habida cuenta de que se trata de
+una sección de clase 4 (de pared delgada).
+Se realiza un cálculo no lineal, admitiendo grandes deformaciones y considerando una ley
+elasto-plástica para el material, sobre una geometrı́a con imperfecciones iniciales, la cual se extrae
+del primer modo propio obtenido de un cálculo de autovalores, convenientemente escalado a un
+valor de imperfección dentro de las tolerancias habituales en este tipo de elementos estructurales.
+Puesto que dicho cálculo no lineal por elementos finitos converge y ha alcanzado una solución
+, podemos deducir la admisibilidad de la tuberı́a frente a la inestabilidad de su pared, en las
+condiciones de carga previsibles según el proyecto del acueducto.
+
+
+Depósito Ramblar
+Formando parte de las obras de la conducción Júcar-Vinalopó, tramo V, se ha construido
+la denominada Central El Ramblar. En ella existe un depósito, calculado en origen para aliviar
+a la cota 655,60, que en la actualidad se pretende que pueda almacenar agua hasta la cota de
+coronación de sus muros, que es la 657,20.
+El objeto de este documento es ofrecer unos resultados numéricos de capacidad de la armadura
+dispuesta para poder valorar si la opción de elevar la lámina de agua del depósito hasta la cota
+657,20 se considera viable.
+
+
+Pieza pantalón
+colector y en las tuberı́as que a él acometen del tramo de la conducción
+Júcar-Vinalopó situado a la salida de la estación de bombeo de Moixent.
+presión de diseño de 40 bar, caudal de 5,6 m3 /s
+
+En el caso que nos ocupa se ha utilizado el primero de los métodos únicamente como una
+aproximación o predimensionamiento de la pieza (ver apartado 2). La razón es que el método
+utilizado, extraı́do de la tabla 16-V del Bureau Veritas de 1985, muy similar al propuesto en otros
+reglamentos de recipientes a presión (ASME VIII, BS-5500, CODAP, AD Merkblätter, manual
+M11 de AWWA, etc. ), es válido para un orificio suelto, realizado sobre un cilindro o superficie
+esférica, aislado de otros orificios que puedan existir, supuestos alejados del orificio en cuestión.
+Por otro lado, se limita a orificios de hasta aproximadamente 1/3 del diámetro del cilindro base.
+Para subsanar estos problemas se ha realizado un diseño mediante análisis de la pieza por el
+método de los elementos finitos (ver apartado 3), mucho más flexible.
+En el caso que nos ocupa, se ha realizado un cálculo plástico basado en grandes deformacio-
+nes y con un modelo del material elastoplástico bilineal, sin tener en cuenta el endurecimiento
+cinemático, lo que está del lado de la seguridad.

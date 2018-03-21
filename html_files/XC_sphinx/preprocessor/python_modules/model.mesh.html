@@ -1,0 +1,267 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>Mesh utils &mdash; XC 3.0 documentation</title>
+    
+    <link rel="stylesheet" href="../../_static/classic.css" type="text/css" />
+    <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../../',
+        VERSION:     '3.0',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="../../_static/jquery.js"></script>
+    <script type="text/javascript" src="../../_static/underscore.js"></script>
+    <script type="text/javascript" src="../../_static/doctools.js"></script>
+    <link rel="top" title="XC 3.0 documentation" href="../../index.html" />
+    <link rel="up" title="Mesh" href="../FE_model.mesh.html" />
+    <link rel="next" title="Mesh management" href="../cpp_classes/domain/mesh/mesh.html" />
+    <link rel="prev" title="Mesh" href="../FE_model.mesh.html" /> 
+  </head>
+  <body role="document">
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="../../py-modindex.html" title="Python Module Index"
+             >modules</a> |</li>
+        <li class="right" >
+          <a href="../cpp_classes/domain/mesh/mesh.html" title="Mesh management"
+             accesskey="N">next</a> |</li>
+        <li class="right" >
+          <a href="../FE_model.mesh.html" title="Mesh"
+             accesskey="P">previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../../index.html">XC 3.0 documentation</a> &raquo;</li>
+          <li class="nav-item nav-item-1"><a href="../FE_model.html" >FE model</a> &raquo;</li>
+          <li class="nav-item nav-item-2"><a href="../FE_model.mesh.html" accesskey="U">Mesh</a> &raquo;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <div class="section" id="module-model.mesh.finit_el_model">
+<span id="mesh-utils"></span><h1>Mesh utils<a class="headerlink" href="#module-model.mesh.finit_el_model" title="Permalink to this headline">¶</a></h1>
+<dl class="class">
+<dt id="model.mesh.finit_el_model.LinSetToMesh">
+<em class="property">class </em><code class="descclassname">model.mesh.finit_el_model.</code><code class="descname">LinSetToMesh</code><span class="sig-paren">(</span><em>linSet</em>, <em>matSect</em>, <em>elemSize</em>, <em>vDirLAxZ</em>, <em>elemType='ElasticBeam3d'</em>, <em>dimElemSpace=3</em>, <em>coordTransfType='linear'</em><span class="sig-paren">)</span><a class="headerlink" href="#model.mesh.finit_el_model.LinSetToMesh" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <a class="reference internal" href="#model.mesh.finit_el_model.RawLineSetToMesh" title="model.mesh.finit_el_model.RawLineSetToMesh"><code class="xref py py-class docutils literal"><span class="pre">model.mesh.finit_el_model.RawLineSetToMesh</span></code></a></p>
+<p>Define the parameters to mesh a set of lines. The method generateMesh
+meshes those lines and adds the nodes and elements created to the set .</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Variables:</th><td class="field-body"><ul class="first last simple">
+<li><strong>matSect</strong> &#8211; instance of the class BeamMaterialData that defines the 
+material-section to be applied to the set of lines.</li>
+<li><strong>vDirLAxZ</strong> &#8211; direction vector for the element local axis Z 
+defined as xc.Vector([x,y,z]). This is the direction in which
+the Z local axis of the sections will be
+oriented (i.e. in the case of rectangular sections this Z 
+local axis of the section is parallel to the dimension
+defined as width of the rectangle)</li>
+<li><strong>dimElemSpace</strong> &#8211; dimension of the element space (defaults to 3)</li>
+<li><strong>coordTransfType</strong> &#8211; type of coordinate transformation. Available 
+types: &#8216;linear&#8217;, &#8216;PDelta&#8217; and &#8216;corot&#8217; (defaults to 
+&#8216;linear&#8217;)</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="class">
+<dt id="model.mesh.finit_el_model.RawLineSetToMesh">
+<em class="property">class </em><code class="descclassname">model.mesh.finit_el_model.</code><code class="descname">RawLineSetToMesh</code><span class="sig-paren">(</span><em>linSet</em>, <em>matSect</em>, <em>elemSize</em>, <em>coordTransf</em>, <em>elemType='ElasticBeam3d'</em>, <em>dimElemSpace=3</em><span class="sig-paren">)</span><a class="headerlink" href="#model.mesh.finit_el_model.RawLineSetToMesh" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <a class="reference internal" href="#model.mesh.finit_el_model.SetToMesh" title="model.mesh.finit_el_model.SetToMesh"><code class="xref py py-class docutils literal"><span class="pre">model.mesh.finit_el_model.SetToMesh</span></code></a></p>
+<p>Define the parameters to mesh a set of lines. The method generateMesh
+meshes those lines and adds the nodes and elements created to the set .</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Variables:</th><td class="field-body"><ul class="first last simple">
+<li><strong>matSect</strong> &#8211; instance of the class BeamMaterialData that defines the 
+material-section to be applied to the set of lines.</li>
+<li><strong>coordTransf</strong> &#8211; coordinate transformation for the elements.</li>
+<li><strong>dimElemSpace</strong> &#8211; dimension of the element space (defaults to 3)</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+<dl class="method">
+<dt id="model.mesh.finit_el_model.RawLineSetToMesh.generateMesh">
+<code class="descname">generateMesh</code><span class="sig-paren">(</span><em>preprocessor</em><span class="sig-paren">)</span><a class="headerlink" href="#model.mesh.finit_el_model.RawLineSetToMesh.generateMesh" title="Permalink to this definition">¶</a></dt>
+<dd><p>Generate the mesh for the line set.</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="model.mesh.finit_el_model.RawLineSetToMesh.getSeedElement">
+<code class="descname">getSeedElement</code><span class="sig-paren">(</span><em>preprocessor</em><span class="sig-paren">)</span><a class="headerlink" href="#model.mesh.finit_el_model.RawLineSetToMesh.getSeedElement" title="Permalink to this definition">¶</a></dt>
+<dd><p>Return the element that will be use to mesh the set.</p>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="model.mesh.finit_el_model.SetToMesh">
+<em class="property">class </em><code class="descclassname">model.mesh.finit_el_model.</code><code class="descname">SetToMesh</code><span class="sig-paren">(</span><em>primitiveSet</em>, <em>elemSize</em>, <em>elemType</em><span class="sig-paren">)</span><a class="headerlink" href="#model.mesh.finit_el_model.SetToMesh" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">object</span></code></p>
+<p>Base for classes that mesh a primitive set.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Variables:</th><td class="field-body"><ul class="first last simple">
+<li><strong>primitiveSet</strong> &#8211; set of lines/surfaces/blocks.</li>
+<li><strong>elemSize</strong> &#8211; mean size of the elements (in elemSize= None don&#8217;t 
+change number of divisions).</li>
+<li><strong>elemType</strong> &#8211; type of element for the mesh.</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="class">
+<dt id="model.mesh.finit_el_model.SurfSetToMesh">
+<em class="property">class </em><code class="descclassname">model.mesh.finit_el_model.</code><code class="descname">SurfSetToMesh</code><span class="sig-paren">(</span><em>surfSet</em>, <em>matSect</em>, <em>elemSize</em>, <em>elemType='ShellMITC4'</em><span class="sig-paren">)</span><a class="headerlink" href="#model.mesh.finit_el_model.SurfSetToMesh" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <a class="reference internal" href="#model.mesh.finit_el_model.SetToMesh" title="model.mesh.finit_el_model.SetToMesh"><code class="xref py py-class docutils literal"><span class="pre">model.mesh.finit_el_model.SetToMesh</span></code></a></p>
+<p>Define the parameters to mesh a set of surfaces. The method generateMesh
+meshes those surfaces and adds the nodes and elements created to the set .</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Variables:</th><td class="field-body"><ul class="first last simple">
+<li><strong>surfSet</strong> &#8211; set of surfaces.</li>
+<li><strong>matSect</strong> &#8211; instance of the class DeckMaterialData that defines the 
+material-section to be applied to the set of surfaces.</li>
+<li><strong>elemType</strong> &#8211; type of element for the mesh (defaults to &#8216;ShellMITC4&#8217;)</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+<dl class="method">
+<dt id="model.mesh.finit_el_model.SurfSetToMesh.generateMesh">
+<code class="descname">generateMesh</code><span class="sig-paren">(</span><em>preprocessor</em><span class="sig-paren">)</span><a class="headerlink" href="#model.mesh.finit_el_model.SurfSetToMesh.generateMesh" title="Permalink to this definition">¶</a></dt>
+<dd><p>Generate the mesh for the surface set.</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="model.mesh.finit_el_model.SurfSetToMesh.getSeedElement">
+<code class="descname">getSeedElement</code><span class="sig-paren">(</span><em>preprocessor</em><span class="sig-paren">)</span><a class="headerlink" href="#model.mesh.finit_el_model.SurfSetToMesh.getSeedElement" title="Permalink to this definition">¶</a></dt>
+<dd><p>Return the element that will be use to mesh the set.</p>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="function">
+<dt id="model.mesh.finit_el_model.getDefaultCoordinateTransformation">
+<code class="descclassname">model.mesh.finit_el_model.</code><code class="descname">getDefaultCoordinateTransformation</code><span class="sig-paren">(</span><em>preprocessor</em>, <em>coordTransfName</em>, <em>coordTransfType</em>, <em>vDir</em><span class="sig-paren">)</span><a class="headerlink" href="#model.mesh.finit_el_model.getDefaultCoordinateTransformation" title="Permalink to this definition">¶</a></dt>
+<dd><p>Creates a default coordinate transformation.</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="model.mesh.finit_el_model.multi_mesh">
+<code class="descclassname">model.mesh.finit_el_model.</code><code class="descname">multi_mesh</code><span class="sig-paren">(</span><em>preprocessor</em>, <em>lstMeshSets</em><span class="sig-paren">)</span><a class="headerlink" href="#model.mesh.finit_el_model.multi_mesh" title="Permalink to this definition">¶</a></dt>
+<dd><p>Mesh all the mesh-sets included in lstMeshSets</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first last simple">
+<li><strong>preprocessor</strong> &#8211; preprocessor</li>
+<li><strong>lstMeshSets</strong> &#8211; list of instances of classes LinSetToMesh or 
+SurfSetToMesh to be meshed</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+  <h4>Previous topic</h4>
+  <p class="topless"><a href="../FE_model.mesh.html"
+                        title="previous chapter">Mesh</a></p>
+  <h4>Next topic</h4>
+  <p class="topless"><a href="../cpp_classes/domain/mesh/mesh.html"
+                        title="next chapter">Mesh management</a></p>
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <ul class="this-page-menu">
+      <li><a href="../../_sources/preprocessor/python_modules/model.mesh.txt"
+            rel="nofollow">Show Source</a></li>
+    </ul>
+   </div>
+<div id="searchbox" style="display: none" role="search">
+  <h3>Quick search</h3>
+    <form class="search" action="../../search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Go" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    <p class="searchtip" style="font-size: 90%">
+    Enter search terms or a module, class or function name.
+    </p>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="../../py-modindex.html" title="Python Module Index"
+             >modules</a> |</li>
+        <li class="right" >
+          <a href="../cpp_classes/domain/mesh/mesh.html" title="Mesh management"
+             >next</a> |</li>
+        <li class="right" >
+          <a href="../FE_model.mesh.html" title="Mesh"
+             >previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../../index.html">XC 3.0 documentation</a> &raquo;</li>
+          <li class="nav-item nav-item-1"><a href="../FE_model.html" >FE model</a> &raquo;</li>
+          <li class="nav-item nav-item-2"><a href="../FE_model.mesh.html" >Mesh</a> &raquo;</li> 
+      </ul>
+    </div>
+    <div class="footer" role="contentinfo">
+        &copy; Copyright 2017, Luis Pérez Tato (LCPT) &amp; Ana Ortega (AO_O).
+      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 1.3.6.
+    </div>
+  </body>
+</html>
