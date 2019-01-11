@@ -66,6 +66,7 @@
                         <a href="#" class="dropdown-toggle" id="dropdownMenu4" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">Blog</a>
                         <ul class="dropdown-menu" aria-labelledby="dropdownMenu4">
                             <li><a href="blog_ongoing.html">Blog</a></li>
+                            <li><a href="blog_previous_years/blog_2017.html">2017</a></li>
                             <li><a href="blog_previous_years/blog_2016.html">2016</a></li>
                             <li><a href="blog_previous_years/blog_2015.html">2015</a></li>
                             <li><a href="blog_previous_years/blog_2014.html">2014</a></li>
@@ -126,6 +127,7 @@
                                                 <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Blog</a>
                                                 <ul class="dropdown-menu">
                                                     <li><a href="blog_ongoing.html">Recent entries</a></li>
+                                                    <li><a href="blog_previous_years/blog_2017.html">2017</a></li>
                                                     <li><a href="blog_previous_years/blog_2016.html">2016</a></li>
                                                     <li><a href="blog_previous_years/blog_2015.html">2015</a></li>
                                                     <li><a href="blog_previous_years/blog_2014.html">2014</a></li>
@@ -167,6 +169,75 @@
                             <div class="row">
                                 <div class="col-sm-5 col-md-5 col-lg-5">
                                     <a href="#">
+                                        <img src="../blog_doc/2018_XCtutorial3/salginatobel.png" alt="image">
+                                    </a>
+                                    <div class="blog-date color-w">
+                                        <p>14</p>DEC
+                                    </div>
+                                </div>
+                                <div class="col-sm-7 col-md-7 col-lg-7 m-t-xs-30">
+                                    <div class="blog-caption">
+                                        <h2 class="blog-heading">
+                                            <a href="#">XC tutorial 3.  Properties of a reinforced concrete section obtained from a fiber-section model. </a><a name="XCtutorial3"></a>
+                                        </h2>
+                                        <p>The analysis of cross-sections by means of fiber models is based on their discretization in a series of point elements or fibers. Each fiber is characterized by the location of its center of gravity, a tributary area and its material's strain-stress curve. The constitutive relation of the section is derived by integration of the response of all the fibers. The only assumption is that plane sections remain plane and normal to the longitudinal axis during the element deformation.
+					</p>
+
+<p>Fiber-like sectional analysis offers several advantages:
+					</p>
+
+<p>- Large capacity and versatility for reproducing complex geometry and material combinations, which makes it appropriate to deal with arbitrary shaped sections and any material behavior.
+					</p>
+                                        <p>- Fiber stress-strain relations are typically expressed as explicit functions of strain, not needing to split them in polynomial segments, cumbersome to deal with.
+					</p>
+                                        <p>- It is adequate to perform nonlinear inelastic analysis; the nonlinear behavior of the elements derives entirely from the nonlinear stress-strain relation of the materials.
+					</p>This tutorial deals with a simple RC rectangular section subjected to uniaxial bending. Two layers of reinforcing bars are placed at the top and bottom faces. By integration over the fibers, we obtain geometrical and mechanical properties of the section as well as its deformation under load.
+                                        <p>
+					</p>
+                                        <a href="../blog_doc/2018_XCtutorial3/tutorial3_fiber_section.pdf" class="btn ht-btn ht-btn-1x"><i class="fa fa-long-arrow-right" aria-hidden="true"></i><sup> [pdf]</sup> Read the tutorial</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--Blog item-->
+                        <div class="blog-item blog-list">
+                            <div class="row">
+                                <div class="col-sm-5 col-md-5 col-lg-5">
+                                    <a href="#">
+                                        <img src="../blog_doc/2018_XCtutorial2/tut2_page-page001.png" alt="image">
+                                    </a>
+                                    <div class="blog-date color-w">
+                                        <p>08</p>DEC
+                                    </div>
+                                </div>
+                                <div class="col-sm-7 col-md-7 col-lg-7 m-t-xs-30">
+                                    <div class="blog-caption">
+                                        <h2 class="blog-heading">
+                                            <a href="#">XC tutorial 2. Analysis of a vibrating string under
+tension. </a><a name="XCtutorial2"></a>
+                                        </h2>
+                                        <p>Any motion of a linear system can be resolved into a superposition of modes, combined with appropriate amplitudes and phases. Modes are a special pattern of motions that have the property that at any point the object moves perfectly sinusoidally and that all points move at the same frequency (if conditions, e.g. stiffness, boundaries, . . . , do not change in time).
+					</p>
+
+<p>This XC-tutorial deals with a flexible string fixed at the ends and stretched to an initial strain. The aim is to determine the first three natural frequencies of lateral vibration of the stretched string.
+					</p>
+
+<p>The case is approached by a two-dimensional FE model, with three DOF per node. An elastic uniaxial material is defined to reproduce the cable behavior, whose strain-stress relationship ranges from slack (large strain at zero stress) to taught (linear with constant elastic modulus). The model is meshed with elements of type co-rotational truss, that can handle large displacements and rotations at the global level (rigid body motion), while at the local level only strain producing deformations along the x-axis of the element remains.
+					</p>
+
+<p>A static solution is firstly obtained and all the components of the analysis (constraint handler, DOF numberer, solution algorithm, integrator, etc.  ) detailed in the tutorial. Finally, a modal analysis is performed in order to get the first three eigenvalues.
+
+					</p>
+                                        <a href="../blog_doc/2018_XCtutorial2/tutorial2_vibr_string.pdf" class="btn ht-btn ht-btn-1x"><i class="fa fa-long-arrow-right" aria-hidden="true"></i><sup> [pdf]</sup> Read the tutorial</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--Blog item-->
+                        <div class="blog-item blog-list">
+                            <div class="row">
+                                <div class="col-sm-5 col-md-5 col-lg-5">
+                                    <a href="#">
                                         <img src="../blog_doc/2018_XCtutorial1/webPg_fig.jpg" alt="image">
                                     </a>
                                     <div class="blog-date color-w">
@@ -180,7 +251,7 @@
                                         </h2>
                                         <p>This tutorial deals with a steel bar of uniform cross section whose ends are fixed from translational motion.  The goal is to find the axial force in the bar subjected to  a uniform temperature increase . 
 					</p>
-                                        <a href="../blog_doc/2018_XCtutorial1/tutorial1_truss_temp.pdf " class="btn ht-btn ht-btn-1x"><i class="fa fa-long-arrow-right" aria-hidden="true"></i> Read the tutorial</a>
+                                        <a href="../blog_doc/2018_XCtutorial1/tutorial1_truss_temp.pdf " class="btn ht-btn ht-btn-1x"><i class="fa fa-long-arrow-right" aria-hidden="true"></i> <sup> [pdf]</sup> Read the tutorial</a>
                                     </div>
                                 </div>
                             </div>
@@ -235,7 +306,7 @@
 					</p>
 					<p> Este tipo de software permite su libre estudio, ejecución y modificación, con lo que podemos adaptarlo a nuestras necesidades y estilo y no a la inversa. Por otro lado, trabajar paramétricamente con distintas aplicaciones libres para el análisis, dibujo y medición de estructuras puede resultar muy útil para liberar al equipo de tareas repetitivas y reducir la probabilidad de cometer errores con las mismas.
 					</p>
-                                        <a href="../blog_doc/2018_migracion_SL_estr/migracion_SL_proyecto_estr.pdf" class="btn ht-btn ht-btn-1x"><i class="fa fa-long-arrow-right" aria-hidden="true"></i> Seguir leyendo ...</a>
+                                        <a href="../blog_doc/2018_migracion_SL_estr/migracion_SL_proyecto_estr.pdf" class="btn ht-btn ht-btn-1x"><i class="fa fa-long-arrow-right" aria-hidden="true"></i> <sup> [pdf]</sup> Seguir leyendo ...</a>
                                     </div>
                                 </div>
                             </div>
@@ -318,186 +389,12 @@
 
 <p>Finally, two case study are analyzed with XC.</p>
 
-                                        <a href="../blog_doc/2018_prestressing_partI/XC_prestressing.pdf" class="btn ht-btn ht-btn-1x"><i class="fa fa-long-arrow-right" aria-hidden="true"></i> Read the paper</a>
+                                        <a href="../blog_doc/2018_prestressing_partI/XC_prestressing.pdf" class="btn ht-btn ht-btn-1x"><i class="fa fa-long-arrow-right" aria-hidden="true"></i> <sup> [pdf]</sup> Read the paper</a>
                                     </div>
                                 </div>
                             </div>
                         </div>
-		      
-                        <div class="blog-item blog-list">
-                            <div class="row">
-                                <div class="col-sm-5 col-md-5 col-lg-5">
-                                    <a href="#">
-                                        <img src="../blog_doc/2017_others/bridge_tendons.png" alt="image">
-                                    </a>
-                                    <div class="blog-date color-w">
-                                        <p>09</p>SEPT
-                                    </div>
-                                </div>
-                                <div class="col-sm-7 col-md-7 col-lg-7 m-t-xs-30">
-                                    <div class="blog-caption">
-                                        <h2 class="blog-heading">
-                                            <a href="#">Prestressed concrete slabs in XC  </a><a name="prestrConcrSlabs"></a>
-                                        </h2>
-                                        <p>We are implementing in XC some developments to model prestressed concrete slabs.</p>
-<p>These models consist of three main components: shell elements to describe the behaviour of concrete, truss elements for modelling the prestressing tendons, and bond elements that describe the transfer of stresses between the prestressing tendons and the concrete.</p>
-<p>To test the tools, we create a 3D model of a railway bridge deck, taken from the example 6.15 of the publication «Eurocode 2. Worked examples», by the European Concrete Platform ASBL.</p>
-<p>The bridge is made up by a continuous slab on three spans, with two orders of prestressing tendons: 39 tendons in the longitudinal direction and 64 in the transverse one. </p>
-					</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!--Blog item-->
-                        <div class="blog-item blog-list">
-                            <div class="row">
-                                <div class="col-sm-5 col-md-5 col-lg-5">
-                                    <a href="#">
-                                        <img src="../blog_doc/2017_others/Kaizen.jpg" alt="image">
-                                    </a>
-                                    <div class="blog-date color-w">
-                                        <p>23</p>JUL
-                                    </div>
-                                </div>
-                                <div class="col-sm-7 col-md-7 col-lg-7 m-t-xs-30">
-                                    <div class="blog-caption">
-                                        <h2 class="blog-heading">
-                                            <a href="#">Kaizen  </a><a name="Kaizen"></a>
-                                        </h2>
-                                        <p>Yesterday I was reading <a href="https://opensource.com/article/17/5/building-open-source-mechanical-keyboards?sc_cid=70160000001273HAAQ"><u> this page</u></a> I found on twitter and these two phrases caught my attention:
-					</p>
-					<p><i>«Under an open source system, the flaws and imperfections in every product can be observed, tracked, and fixed, much like the Japanese philosophy of "continuous improvement" known as kaizen, which is applied to every aspect of a process. By following these principles, we believe that the open hardware movement is poised to fundamentally change the global product economy.»</i>
-					</p>
-					<p>The power of the «openness» allows us (all of us in some degree) to collaborate in the design process. As people of <a href="http://openingdesign.com/about/"> <u>Opening design</u></a> propose, the possibilities that "new» technologies offer must compel us to rethink the whole design and building processes. Open BIM is, or can be, the tool to use for sharing designs and collaborate on their improvement.
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!--Blog item-->
-                        <div class="blog-item blog-list">
-                            <div class="row">
-                                <div class="col-sm-5 col-md-5 col-lg-5">
-                                    <a href="#">
-                                        <img src="../blog_doc/2017_tensegrity/tensegrity.png" alt="image">
-                                    </a>
-                                    <div class="blog-date color-w">
-                                        <p>19</p>MAY
-                                    </div>
-                                </div>
-                                <div class="col-sm-7 col-md-7 col-lg-7 m-t-xs-30">
-                                    <div class="blog-caption">
-                                        <h2 class="blog-heading">
-                                            <a href="#">Analysis of tensegrity structures with XC </a><a name="tensegrityXC"></a>
-                                        </h2>
-                                        <p>Tensegrity structures are usually defined as structural systems that maintain their shape by using a discontinuous set of compressive elements (struts) that are connected to a continuous net of prestressed tensile elements (cables).</p>
-                                        <p>This case study deals with the analysis of several 2D and 3D tensegrity units. In all cases, the results issued by the finite element model in XC compares very well with those forthcoming from symbolic analysis.</p>
-                                        <p>A 3D-corotational truss formulation with XC appears to be an effective technique for solving the geometrically nonlinear problem that arises in a tensegrity structure.</p>
-                                        <a href="../blog_doc/2017_tensegrity/XC_tensegrity_models.pdf" class="btn ht-btn ht-btn-1x"><i class="fa fa-long-arrow-right" aria-hidden="true"></i> Read the paper</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!--Blog item-->
-                        <div class="blog-item blog-list">
-                            <div class="row">
-                                <div class="col-sm-5 col-md-5 col-lg-5">
-                                    <a href="#">
-                                        <img src="../blog_doc/2017_vibr_string/vibr_string.png" alt="image">
-                                    </a>
-                                    <div class="blog-date color-w">
-                                        <p>02</p>APRIL
-                                    </div>
-                                </div>
-                                <div class="col-sm-7 col-md-7 col-lg-7 m-t-xs-30">
-                                    <div class="blog-caption">
-                                        <h2 class="blog-heading">
-                                            <a href="#">Analysis of a vibrating string under tension with XC </a><a name="vibratingXC"></a>
-                                        </h2>
-                                        <p>Any motion of a linear system can be resolved into a superposition of modes, combined with appropriate amplitudes and phases.</p>
-
-                                                                                <p>This case study deals with a flexible string fixed at the ends and stretched to an initial strain.</p>
-
-                                                                                <p>The aim is to determine the first three natural frequencies of lateral vibration of the stretched string.</p>
-                                        <a href="../blog_doc/2017_vibr_string/modes_vibrating_string_tension.pdf" class="btn ht-btn ht-btn-1x"><i class="fa fa-long-arrow-right" aria-hidden="true"></i> Read the paper</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!--Blog item-->
-                        <div class="blog-item blog-list">
-                            <div class="row">
-                                <div class="col-sm-5 col-md-5 col-lg-5">
-                                    <a href="#">
-                                        <img src="../blog_doc/2017_structural_steel_joints/LosBarriosJoints.jpeg" alt="image">
-                                    </a>
-                                    <div class="blog-date color-w">
-                                        <p>15</p>MARCH
-                                    </div>
-                                </div>
-                                <div class="col-sm-7 col-md-7 col-lg-7 m-t-xs-30">
-                                    <div class="blog-caption">
-                                        <h2 class="blog-heading">
-                                            <a href="#"> Finite element analysis of structural steel joints </a><a name="steelJoints"></a>
-                                        </h2>
-                                        <p>The analysis of structural steel joints is a complex problem. 
-The calculation methods proposed in the standards are generally based on simplifications that can make them unsuitable for more complicated geometries (stresses in different planes, arrangement of auxiliary elements such as bushings,
-stiffeners or plates,. . . ). Nor do the tables and abacuses capture the broad typology that may arise. </p>
-                                        <p>This paper describes the features of the finite element calculation of two types of beam to column connections and two column base plates. Three-dimensional models have been used which take into account the non-linear behavior of the material and of the contact surface between the bolted parts. In order to calibrate the calculation, it has been reproduced a finite element model used in the work «Finite element analysis of structural steelwork beam to column bolted connections», by Jim Butterworth.</p>
-
-                                        <a href="../blog_doc/2017_structural_steel_joints/FE_joints_sp.pdf" class="btn ht-btn ht-btn-1x"><i class="fa fa-long-arrow-right" aria-hidden="true"></i> Read the paper (Spanish)</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!--Blog item-->
-                        <div class="blog-item blog-list">
-                            <div class="row">
-                                <div class="col-sm-5 col-md-5 col-lg-5">
-                                    <a href="#">
-                                        <img src="../blog_doc/2017_EC2Building/EC2building.png" alt="image">
-                                    </a>
-                                    <div class="blog-date color-w">
-                                        <p>21</p>FEBRUARY
-                                    </div>
-                                </div>
-                                <div class="col-sm-7 col-md-7 col-lg-7 m-t-xs-30">
-                                    <div class="blog-caption">
-                                        <h2 class="blog-heading">
-                                            <a href="#">Analysis of a building with XC </a> </a><a name="EC2buildingXC"></a>
-                                        </h2>
-                                        <p>This case study is taken from the European Commission publication «Eurocode 2: background & applications. Design of concrete buildings. Worked examples». It deals with a six-storey building with two underground parking levels.</p>
-                                        <p>The aim of this exercise is to build the model with XC in order to obtain the displacements and internal forces in the structure caused by a set of load combinations. In upcoming exercises the verifications relating to limit states will be carried out.</p>
-                                        <a href="../blog_doc/2017_EC2Building/EC2building.pdf" class="btn ht-btn ht-btn-1x"><i class="fa fa-long-arrow-right" aria-hidden="true"></i> Read the paper</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!--Blog item-->
-                        <div class="blog-item blog-list">
-                            <div class="row">
-                                <div class="col-sm-5 col-md-5 col-lg-5">
-                                    <a href="#">
-                                        <img src="../blog_doc/2017_others/emperor.jpg" alt="image">
-                                    </a>
-                                    <div class="blog-date color-w">
-                                        <p>21</p>JANUARY
-                                    </div>
-                                </div>
-                                <div class="col-sm-7 col-md-7 col-lg-7 m-t-xs-30">
-                                    <div class="blog-caption">
-                                        <h2 class="blog-heading">
-                                            <a href="#">The Emperor's New Clothes </a><a name="EmperorNewClothes"></a>
-                                        </h2>
-                                        <p>The Emperor's New Clothes is one of my favorite tales. I think that this story illustrates quite well the problem of the «invention of the truth» that affects communities under certain conditions.</p>
-
-                                        <p>As engineers, we are quite sure that the methods that we apply to make our designs are based on sound scientific principles, and this is what justifies the existence of our profession.</p>
-					<p>Today, I was reading the article <a href="http://www.castaliaweb.com/ita/pubblicazioni/The_Role_Of_The_Standards_In_The_Invention_Of_The_truth.pdf"><u>The Role of the Standards in The Invention of the Truth</u></a> , which call into question the rigor of the principles prescribed by some standards.</p>
-					<p>That makes me think that there is a good reason for us to acquire a solid knowledge in mathematics, physics, etc. and, only after that, use the standard prescriptions while retaining a critical spirit. As Richard P. Feynman explains in its <a href="http://calteches.library.caltech.edu/51/2/CargoCult.pdf"><u>Cargo Cult Science article</u></a>, it is not always easy to say that the emperor wears no clothes.</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!--Blog item-->
+                        <!-- End Blog item-->
 
                     </div>
                 </section>
@@ -512,9 +409,11 @@ stiffeners or plates,. . . ). Nor do the tables and abacuses capture the broad t
                         <!-- Contact info -->
                         <div class="col-sm-4 col-md-5 col-lg-5">
                             <a href="#" class="logo"><img src="../images/logo/logoXC100x100.png" alt="logo"></a>
-                            <p class="f-35 f-bold m-t-20">+41 79 633 97 87</p>
+                            <p class="f-27 f-bold m-t-20">+34 744 45 98 68</p>
                             <p class="m-b-15">ana.ortega@xcengineering.xyz</p>
-                            <p>rue du Valentin 30 1004 Lausanne Switzerland</p>
+                            <p class="f-27 f-bold m-t-20">+34 610 56 26 37</p>
+                            <p class="m-b-15">l.pereztato@xcengineering.xyz</p>
+<!--                            <p>rue du Valentin 30 1004 Lausanne Switzerland</p>  -->
                          </div>
                         <!-- Newsletter -->
                         <div class="col-sm-4 col-md-4 col-lg-4 m-t-90 m-t-xs-30">
