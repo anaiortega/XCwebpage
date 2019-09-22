@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="zxx">
+    <head>
+        <!-- Global Site Tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-106536498-1"></script>
+        <script>
+	    window.dataLayer = window.dataLayer || [];
+	    function gtag(){dataLayer.push(arguments)};
+	    gtag('js', new Date());
+ 	    gtag('config', 'UA-106536498-1');
+        </script>
+        <!-- End Global Site Tag (gtag.js) - Google Analytics -->
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>About us</title>
+        <link rel="icon" href="logoXC.ico">
+        <link rel="icon" href="logoXC.ico">
+        <!-- Bootstrap -->
+        <link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css">
+        <!-- Awesome font icons -->
+        <link rel="stylesheet" type="text/css" href="../css/font-awesome.min.css" media="screen"/>
+        <!-- Owl-coursel -->
+        <link rel="stylesheet" type="text/css" href="../css/owl-coursel/owl.carousel.css">
+        <link rel="stylesheet" type="text/css" href="../css/owl-coursel/owl.theme.css">
+        <!-- Style -->
+        <link rel="stylesheet" type="text/css" href="../css/XCstyle.css" media="screen">
+        <!-- Dark version -->
+        <link rel="stylesheet" type="text/css" href="../css/dark.css" media="screen">
+        <!-- Padd-mr -->
+        <link rel="stylesheet" type="text/css" href="../css/padd-mr.css" media="screen">
+    </head>
+    <body>
+        <div class="preloader"><p></p></div>
+        <!-- Menu rs -->
+        <div class="menu-rs">
+            <div class="menu-wrap">
+                <div class="r-mv">
+                    <span></span>
+                    <span></span>
+                </div>
+                <ul class="menu-mb">
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">Home</a>
+                        <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+                            <li><a href="../index.html">Home</a></li>
+                            <li><a href="contact.html">Contact</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="about.html">About</a></li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" id="dropdownMenu3" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">Projects</a>
+                        <ul class="dropdown-menu" aria-labelledby="dropdownMenu3">
+			    <li><a href="projects/bridges.html">Bridges</a></li>
+			    <li><a href="projects/power_stations.html">Power station structures</a></li>
+			    <li><a href="projects/tunnels.html">Tunnels</a></li>
+			    <li><a href="projects/buildings.html">Buildings</a></li>
+			    <li><a href="projects/rehabilitation.html">Pathology and rehabilitation</a></li>
+			    <li><a href="projects/water_infr.html">Water infrastructure</a></li>
+			    <li><a href="projects/wastewater_infr.html">Wastewater infrastructure</a></li>
+			    <li><a href="projects/environmental_infr.html">Environmental infrastructure</a></li>
+			    <li><a href="projects/elect_substations.html">Electrical substations</a></li>
+                         </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" id="dropdownMenu4" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">Blog</a>
+                        <ul class="dropdown-menu" aria-labelledby="dropdownMenu4">
+                            <li><a href="blog_ongoing.html">Recent entries</a></li>
+                            <li><a href="blog_previous_years/blog_2016.html">2016</a></li>
+                            <li><a href="blog_previous_years/blog_2015.html">2015</a></li>
+                            <li><a href="blog_previous_years/blog_2014.html">2014</a></li>
+                            <li><a href="blog_previous_years/blog_2009.html">2009</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="software.html">XC software</a></li>
+                </ul>
+            </div>
+        </div>
+        <!-- Index 1 -->
+        <div id="wrap">
+            <!-- Header -->
+            <header id="wrap-header">
+                <div class="container">
+                    <div class="row">
+                        <!-- Logo -->
+                        <div class="col-sm-2 col-md-2 col-lg-2">
+                            <a href="#" class="logo"><img src="../images/logo/logoXC50x50.png" alt="logo"></a>
+                        </div>
+                        <!-- Menu -->
+                        <div class="col-sm-10 col-md-10 col-lg-10 hidden-xs">
+                            <nav class="navbar navbar-default menu pull-right">
+                                <div class="container-fluid">
+                                    <div class="navbar-header">
+                                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                                            <span class="sr-only">Toggle navigation</span>
+                                            <span class="icon-bar"></span>
+                                            <span class="icon-bar"></span>
+                                            <span class="icon-bar"></span>
+                                        </button>
+                                    </div>
+                                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                                        <ul class="nav navbar-nav">
+                                            <li class="dropdown">
+                                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Home</a>
+                                                <ul class="dropdown-menu">
+                                                    <li><a href="../index.html">Home</a></li>
+                                                    <li><a href="contact.html">Contact</a></li>
+                                                </ul>
+                                            </li>
+                                            <li><a href="about.html">About</a></li>
+                                            <li class="dropdown">
+                                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Projects</a>
+                                                <ul class="dropdown-menu">
+                                                    <li><a href="projects/bridges.html">Bridges</a></li>
+                                                    <li><a href="projects/power_stations.html">Power station structures</a></li>
+                                                    <li><a href="projects/tunnels.html">Tunnels</a></li>
+                                                    <li><a href="projects/buildings.html">Buildings</a></li>
+			                            <li><a href="projects/rehabilitation.html">Pathology and rehabilitation</a></li>
+                                                    <li><a href="projects/water_infr.html">Water infrastructure</a></li>
+						    <li><a href="projects/wastewater_infr.html">Wastewater infrastructure</a></li>
+						    <li><a href="projects/environmental_infr.html">Environmental infrastructure</a></li>
+						    <li><a href="projects/elect_substations.html">Electrical substations</a></li>
+   
+                                                </ul>
+                                            </li>
+                                            <li class="dropdown">
+                                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Blog</a>
+                                                <ul class="dropdown-menu">
+                                                    <li><a href="blog_ongoing.html">Recent entries</a></li>
+                                                    <li><a href="blog_previous_years/blog_2016.html">2016</a></li>
+                                                    <li><a href="blog_previous_years/blog_2015.html">2015</a></li>
+                                                    <li><a href="blog_previous_years/blog_2014.html">2014</a></li>
+                                                    <li><a href="blog_previous_years/blog_2009.html">2009</a></li>
+                                                </ul>
+                                            </li>
+                                            <li><a href="software.html">XC software</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </nav>
+                        </div>
+                        <!-- Search -->
+                        <div class="search-box">
+                            <i class="fa fa-search search-icon"></i>
+                            <form>
+                                <input type="text" name="search-txt" placeholder="Search..." class="search-txt form-item">
+                                <button type="submit" name="submit" class="search-btn"><i class="fa fa-search"></i></button>
+                            </form>
+                        </div>
+                        <i class="fa fa-bars menu-btn"></i>
+                    </div>
+                </div>
+            </header>
+            <!-- Main content -->
+            <div id="wrap-body">
+                <section class="bg-inner-page">
+                    <div class="container">
+                        <div class="page-name" data-top-bottom="transform: translateY(-150px);" data-bottom-top="transform: translateY(300px);" >
+                            <h4>/ ABOUT</h4>
+                        </div>
+                    </div>    
+                </section>
+                <section>    
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-sm-7 col-md-7 col-lg-7">
+                                <div class="content-txt m-t-100">
+                                    <div class="title text-align-left">
+                                        <h2>About us</h2>
+                                    </div>
+                                    <h3 class="p-t-0">XC is a consulting engineering company highly specialized in the design of structures for civil works.
+In 1998, coming from close collaboration in different projects, we set up our first company, Iturribizia, in Madrid. Initially, we covered a wide range of projects; the gradual <span style="color: #ff0000">specialization</span> in the field of structures, the one we are most passionate about,  led to XC.</h3>
+                                    <br />
+                                    <h3 class="p-t-0">We think of the <span style="color: #ff0000">conceptual design of structures</span> as a total. This means understanding the technical and economic requirements of each structure, and other aspects more subjective like aesthetic and the context in its broadest sense, that includes physical, historical, social, economic and ecological considerations. 
+</h3>
+                               </div>
+                            </div>
+                            <div class="col-sm-5 col-md-5 col-lg-5 hidden-xs">
+                                <div class="bg-inner-page h-500"></div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="m-t-100">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-sm-4 col-md-4 col-lg-4">
+                                <a href="#"><img src="../images/about/left_brain_right_brain.png" alt="image"></a>
+                            </div>
+                            <div class="col-sm-6 col-md-6 col-lg-7">
+                                <div class="content-txt m-t-30">
+                                    <div class="title text-align-left">
+                                    </div>
+				    <h3  class="p-t-0">Although engineering analysis is only a support activity in the larger field of engineering design, the analysis process helps to identify good new designs and can be used to improve a design with respect to performance and cost. 
+</h3>
+                                    <br />
+ 				    <h3  class="p-t-0">In our case, the analysis work has also involved the expansion of the activity into the adjoining field of computer programming. This backbone provides us with unlimited freedom to take the control of the design process and a much deeper insight into the structural problem.
+</h3>
+                                    <br />
+				    <h3  class="p-t-0">We initiated and keep working on an evolving Open Source project, called XC. It is a finite element program aimed directly at civil structural engineering, developed on the basis of powerful open software applications like OpenSees, Phyton and VTK.
+</h3>
+                                    <br />
+				    <h3  class="p-t-0">This work is guided by our self-imposed mandate for <span style="color: #ff0000">openness and knowledge-sharing</span>. Thanks to the share-alike attribute of a copyleft license, we frequently benefit from the mindshare of the authors that contribute to XC and the programs on which it is based. Because of our high degree of specialization, this open way of working also offers us a conduit to find like-minded professionals with which team up on projects.
+</h3>
+                                    <br />
+				    <h3  class="p-t-0">We like to embrace our responsibility towards <span style="color: #ff0000">social sustainability</span>. Solving human problems and contributing to society are our main goals. In this regard, again, the use of technology to identify the processes at which computers do best, such as repetitive tasks and optimum searches, free us to devote more efforts to those creative processes.
+	</h3>
+                                    <br />
+				    <h3  class="p-t-0">Finally, one of our current purposes is to enhance our <span style="color: #ff0000">community engagement</span>. Recently, we have made our modest contribution to the translation of the NGO Bridge to Prosperity Manuals into Spanish. It has been a rewarding experience, since learning about the way of approaching engineering problems in the developing world brings another perspective to our work and, we hope, will contribute to improving our own designs.
+	</h3>
+				    
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </section>
+                <section class="m-t-100">
+                    <div class="container">
+<!--		
+                        <div class="title text-align-left">
+                            <h2>Our Team</h2>
+                        </div>
+-->
+                        <div class="row">
+                            <div class="owl" data-items="4" data-itemsDesktop="4" data-itemsDesktopSmall="3" data-itemsTablet="2" data-itemsMobile="1" data-pag="false" data-buttons="false">
+                                <div class="col-lg-9">
+                                    <div class="team-item">
+                                        <a href="#">
+                                            <img src="../images/us/fotoAnaByN.png" alt="image">
+                                        </a>
+                                        <h4>Ana Ortega</h4>
+                                        <p>Structural civil engineer (ICCP)</p>
+                                    </div>
+                                </div>
+ <!--		
+                               <div class="col-lg-12">
+                                    <div class="team-item">
+                                        <a href="#">
+                                            <img src="../images/default.png" alt="image">
+                                        </a>
+                                        <h4>Luis Pérez Tato</h4>
+                                        <p>Structural engineer (ICCP)</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="m-t-100">
+                    <div class="container">
+                        <div class="title text-align-left">
+                            <h2>Clients</h2>
+                        </div>
+                        <div class="row">
+                            <div class="owl logo-client" data-items="6" data-itemsDesktop="6" data-itemsDesktopSmall="4" data-itemsTablet="2" data-itemsMobile="1" data-pag="false" data-buttons="false">
+                                <div class="col-lg-12 p-10">
+                                    <a href="#">
+                                        <img src="../images/default.png" alt="image">
+                                    </a>
+                                </div>
+                                <div class="col-lg-12 p-10">
+                                    <a href="#">
+                                        <img src="../images/default.png" alt="image">
+                                    </a>
+                                </div>
+                                <div class="col-lg-12 p-10">
+                                    <a href="#">
+                                        <img src="../images/default.png" alt="image">
+                                    </a>
+                                </div>
+                                <div class="col-lg-12 p-10">
+                                    <a href="#">
+                                        <img src="../images/default.png" alt="image">
+                                    </a>
+                                </div>
+                                <div class="col-lg-12 p-10">
+                                    <a href="#">
+                                        <img src="../images/default.png" alt="image">
+                                    </a>
+                                </div>
+                                <div class="col-lg-12 p-10">
+                                    <a href="#">
+                                        <img src="../images/default.png" alt="image">
+                                    </a>
+                                </div>
+                                <div class="col-lg-12 p-10">
+                                    <a href="#">
+                                        <img src="../images/default.png" alt="image">
+                                    </a>
+                                </div>
+                                <div class="col-lg-12 p-10">
+                                    <a href="#">
+                                        <img src="../images/default.png" alt="image">
+                                    </a>
+                                </div>
+                            </div>
+-->
+                        </div>
+                    </div>                
+                </section>
+            </div>
+            <!-- Footer -->
+            <footer id="wrap-footer">
+                <div class="container color-w">
+                    <div class="row">
+                        <div class="brad-h brad-h-w" data-top-bottom="transform: translateY(-100px);" data-bottom-top="transform: translateY(100px);">
+                            <p>XC</p>
+                        </div>
+                        <!-- Contact info -->
+                        <div class="col-sm-4 col-md-5 col-lg-5">
+                            <a href="#" class="logo"><img src="../images/logo/logoXC100x100.png" alt="logo"></a>
+                            <p class="f-35 f-bold m-t-20">+41 79 633 97 87</p>
+                            <p class="m-b-15">ana.ortega@xcengineering.xyz</p>
+                            <p>rue du Valentin 30 1004 Lausanne Switzerland</p>
+                         </div>
+                        <!-- Newsletter -->
+                        <div class="col-sm-4 col-md-4 col-lg-4 m-t-90 m-t-xs-30">
+                            <h3>NEWSLETTER</h3>
+                            <form>                                
+                                <div class="input-icon">
+                                    <input type="text" class="form-item" placeholder="">
+                                    <button type="submit"><i class="fa fa-send-o"></i></button>
+                                </div>
+                            </form>
+                        </div>
+                        <!-- Social link -->
+                        <div class="col-sm-4 col-md-3 col-lg-3 m-t-170 m-t-xs-30">
+                            <ul class="list-inline pull-right pull-left-xs">
+                                <li><a href="https://plus.google.com/+Xcingenieria"><i class="fa fa-google-plus"></i></a></li>
+                                <li><a href="https://www.linkedin.com/company-beta/2550918/"><i class="fa fa-linkedin"></i></a></li>
+                                <li><a href="https://twitter.com/xcingenieria"><i class="fa fa-twitter"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-bt">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <p>© 2017 <a href="https://themeforest.net/user/t3theme">T3THEME</a> | Privacy Policy</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+        </div>
+        <!-- jQuery -->
+        <script src="../js/jquery-2.2.4.min.js"></script>
+        <!-- Bootstrap -->
+        <script src="../js/bootstrap.min.js"></script>
+        <!-- Owl-coursel -->
+        <script src="../js/owl-coursel/owl.carousel.js"></script>
+        <!-- Parallax scrolling -->
+        <script src="../js/skrollr.min.js"></script>
+        <!-- Header resize -->
+        <script src="../js/classie.js"></script>
+        <!-- Countdown -->
+        <script src="../js/simpletimer.js"></script>
+        <!-- Script -->
+        <script src="../js/script.js"></script>
+    </body>
+</html>
