@@ -689,7 +689,7 @@ h4.panel-title a.collapsed::after{
 /*	background-image:url('../images/background/background_cut.png');*/
 	background-image:url('../images/background/acomesfida_cut.png');
 /*	background:#333;*/
-	background-size:92%;
+	background-size:100%;
 	background-attachment:fixed;
 	position:relative;
 }
