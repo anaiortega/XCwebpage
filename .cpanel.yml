@@ -3,4 +3,4 @@ deployment:
  tasks:
   - export REPOPATH=/home/inmainl1/repositories/XCwebpage/
   - export DEPLOYPATH=/home/inmainl1/public_html/
-  - cp -R REPOPATH/fonts DEPLOYPATH/fonts
+  - /bin/cp -R $REPOPATH/fonts $DEPLOYPATH/fonts
