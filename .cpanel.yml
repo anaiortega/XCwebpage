@@ -3,4 +3,5 @@ deployment:
  tasks:
   - export REPOPATH=/home/inmainl1/repositories/XCwebpage/
   - export DEPLOYPATH=/home/inmainl1/public_html/
-  - /usr/bin/rsync -rav --exclude '.git' --exclude '.cpanel.yml' --exclude setup_doc --del $REPOPATH $DEPLOYPATH
+#  - /usr/bin/rsync -rav --exclude '.git' --exclude '.cpanel.yml' --exclude setup_doc --del $REPOPATH $DEPLOYPATH
+  - /bin/cp -R REPOPATH/fonts DEPLOYPATH/fonts
