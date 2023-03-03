@@ -4,4 +4,12 @@ deployment:
   - export REPOPATH=/home/inmainl1/repositories/XCwebpage/
   - export DEPLOYPATH=/home/inmainl1/public_html/
   - /bin/cp -R -u $REPOPATH/blog_doc $DEPLOYPATH/blog_doc
+  - /bin/cp -R -u $REPOPATH/css $DEPLOYPATH/css
+  - /bin/cp -R -u $REPOPATH/doxygen_doc $DEPLOYPATH/doxygen_doc
   - /bin/cp -R -u $REPOPATH/fonts $DEPLOYPATH/fonts
+  - /bin/cp -R -u $REPOPATH/html_files $DEPLOYPATH/html_files
+  - /bin/cp -R -u $REPOPATH/images $DEPLOYPATH/images
+  - /bin/cp -R -u $REPOPATH/js $DEPLOYPATH/js
+  - /bin/cp -R -u $REPOPATH/projects_doc $DEPLOYPATH/projects_doc
+  - /bin/cp -R -u $REPOPATH/sphinx_doc $DEPLOYPATH/sphinx_doc
+  - /bin/cp -R -u $REPOPATH/templates $DEPLOYPATH/templates
