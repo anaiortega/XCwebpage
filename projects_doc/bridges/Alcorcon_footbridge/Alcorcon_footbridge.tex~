@@ -1,0 +1,33 @@
+\documentclass[a4paper,11pt ]{xc_webpage_project}
+\usepackage[utf8]{inputenc}
+\usepackage[spanish,english]{babel}
+\usepackage{graphicx}
+\usepackage[labelsep=period]{caption}
+\usepackage{parallel}
+\usepackage{wrapfig} %% Wrapping text around figures.
+\usepackage{caption}
+\usepackage{subcaption}
+
+\renewcommand{\titProject}{Pasarela sobre el río Isuela en Huesca}
+\def\@anagramFont{\relax}
+\renewcommand{\client}{Ayto. de Huesca}
+\renewcommand{\dateProject}{2021}
+\renewcommand{\location}{Huesca (España)}
+\renewcommand{\widhtLeftCol}{0.50\textwidth} % normalmente no lo cambiaremos
+\renewcommand{\widhtRightCol}{0.45\textwidth} % normalmente no lo cambiaremos
+
+
+\begin{document}
+\headerSpanish
+
+\begin{Parallel}{\widhtLeftCol}{\widhtRightCol}
+  \ParallelLText{
+    
+   }
+  \ParallelRText{
+    *****
+  }
+\end{Parallel}
+
+\end{docuement}
+  

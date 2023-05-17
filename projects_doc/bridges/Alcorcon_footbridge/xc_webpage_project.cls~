@@ -1,0 +1,84 @@
+% This document class is intended for project summary notes
+% in XC webpage.
+% It is based on article.cls and inherits most of the functionality
+% that class.
+
+\NeedsTeXFormat{LaTeX2e}
+\ProvidesClass{xc_iwebpage_project}[23/05/05 XC project summary note]\usepackage[utf8]{inputenc}
+
+\LoadClass{article}
+
+% Requirements
+\RequirePackage{epsfig}
+\RequirePackage{parallel}
+\RequirePackage[dvipsnames]{xcolor}
+\RequirePackage{multirow}
+
+\newcommand{\HRule}{{\color{Mahogany}\rule{\linewidth}{1.2mm}}}
+\newcommand{\titProject}{Título del proyecto. }
+\def\@anagramFont{\relax}
+\newcommand{\client}{Client}
+\newcommand{\dateProject}{Project date}
+\newcommand{\location}{Project location}
+\newcommand{\widhtLeftCol}{0.50\textwidth}
+ \newcommand{\widhtRightCol}{0.45\textwidth}
+   
+\setlength{\unitlength}{1mm}
+\def\@xcLogo{\relax}
+\newcommand{\xcLogo}{ 
+  \begin{picture}(50,-30)%
+  \put(-30,0){\epsfig{file=anagramaXC300x300_con_texto,width=25mm}}%
+  \end{picture}
+}
+
+\def\@headerSpanish{\relax}
+\newcommand{\headerSpanish}{
+\xcLogo
+
+\noindent
+\begin{tabular}{p{110mm}|lr|}
+  \cline{2-3}
+      \multirow{3}{90mm}{\fontsize{30}{0}\selectfont{\color{Mahogany}\bfseries\titProject}} & \footnotesize{Localización:} & \footnotesize{\location} \\
+       & \footnotesize{Cliente:} & \footnotesize{\client} \\
+      & \footnotesize{Fecha:} &  \footnotesize{\dateProject} \\
+        \cline{2-3}
+
+\end{tabular}
+\\
+
+\noindent
+\HRule
+}
+
+\def\@headerEnglish{\relax}
+\newcommand{\headerEnglish}{
+\xcLogo
+
+\noindent
+\begin{tabular}{p{90mm}p{1mm}|ll|}
+  \cline{3-4}
+      \multirow{3}{90mm}{\fontsize{50}{0}\selectfont{\color{Mahogany}\bfseries\titProject}} & & \footnotesize{Location::} & \footnotesize{\location} \\
+       & & \footnotesize{Client:} & \footnotesize{\client} \\
+      & & \footnotesize{Date:} &  \footnotesize{\dateProject} \\
+        \cline{3-4}
+
+\end{tabular}
+\\
+
+\noindent
+\HRule
+}
+
+
+\renewcommand{\baselinestretch}{1.5}\normalsize
+\makeatletter
+\renewcommand{\@biblabel}[1]{#1.}
+\makeatother
+
+
+\usepackage{geometry}
+\geometry{left=3cm}
+\geometry{right=1.5cm}
+\geometry{top=2cm}
+\geometry{bottom=2cm}
+
